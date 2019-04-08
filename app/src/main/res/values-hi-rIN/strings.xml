@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">चुनाव ऐप</string>
+    <string name="home">होम</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="location">स्थान</string>
+    <string name="help">सहायता</string>
+    <string name="feedback">प्रतिक्रिया</string>
+    <string name="know_your_polling_station">अपने मतदान केंद्र को जानें</string>
+    <string name="know_your_candidate">अपने उम्मीदवार को जानें</string>
+    <string name="facility_for_pwd">पीडब्ल्यूडी (दिव्यांग) के लिए सुविधा</string>
+    <string name="facilities_for_third_gender">थर्ड जेंडर के लिए सुविधाएं</string>
+    <string name="results">परिणाम</string>
+    <string name="about_chandani_chowk">चचांदनी चौक के पी.सी. के बारे में</string>
+    <string name="pick_up_time">समय लेने:</string>
+    <string name="pick_up_point">पिक अप बिंदु</string>
+    <string name="drop_time">ड्रॉप समय:</string>
+    <string name="click_on_button">पीडब्ल्यूडी ऐप खोलने के लिए बटन पर क्लिक करें</string>
+    <string name="open_pwd_app">पीडब्ल्यूडी ऐप खोलें</string>
+    <string name="chandni_chowk">चचांदनी चौक</string>
+    <string name="parliament_constituency">संसद निर्वाचन क्षेत्र</string>
+    <string name="chandni_chowk_content">
+        पुरानी दिल्ली के केंद्र में, चांदनी चौक, मसालों, सूखे मेवों, चांदी के आभूषणों और ज्वलंत साड़ियों से भरे बाजारों के साथ एक व्यस्त खरीदारी क्षेत्र है, जबकि संकरी गलियों में आवश्यक तेलों, स्टेशनरी और पारंपरिक भारतीय मिठाइयों की बिक्री करने वाली छोटी दुकानों की भीड़ है।
+    </string>
+</resources>
