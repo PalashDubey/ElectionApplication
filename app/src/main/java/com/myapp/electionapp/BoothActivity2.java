@@ -16,10 +16,4 @@ public class BoothActivity2 extends AppCompatActivity {
         getDetails.execute();
 
     }
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        startActivity(new Intent(BoothActivity2.this, Main2Activity.class));
-        finish();
-    }
 }
