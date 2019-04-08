@@ -41,24 +41,6 @@
                     android:timePickerMode="spinner"
                     android:hint="Enter PickUp Time"/>
 
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/drop_time"
-                    android:textColor="#000"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
-                    android:drawableLeft="@drawable/drop"
-                    android:drawablePadding="10dp"/>
-                <TimePicker
-                    android:id="@+id/DropTime"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:timePickerMode="spinner"
-                    android:hint="Enter PickUp Time"/>
             </LinearLayout>
 
             <LinearLayout

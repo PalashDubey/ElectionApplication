@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+
+        <activity android:name=".ResultActivity"
+            android:screenOrientation="portrait"/>
+
         <activity android:name=".AboutChandniChowk"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionBar"/>

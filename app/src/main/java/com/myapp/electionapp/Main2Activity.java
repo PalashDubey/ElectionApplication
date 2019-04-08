@@ -157,7 +157,8 @@ public class Main2Activity extends AppCompatActivity {
         card5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplication(),"To Be Declared. Come Back Later!",Toast.LENGTH_SHORT).show();
+                Intent i5 = new Intent(Main2Activity.this,ResultActivity.class);
+                startActivity(i5);
             }
         });
 
