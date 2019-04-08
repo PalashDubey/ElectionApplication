@@ -21,6 +21,8 @@ public class GetDetails extends AsyncTask<String,Void,String> {
     Context context;
     RecyclerView recyclerView;
     List<myDetails> myDetailsList;
+    ArrayList<String> ar = new ArrayList<String>();
+
     public GetDetails(Context context, RecyclerView recyclerView){
         this.context = context;
         this.recyclerView = recyclerView;
@@ -62,11 +64,13 @@ public class GetDetails extends AsyncTask<String,Void,String> {
         myDetailsList = new ArrayList<>();
         String[] splitArray = result.split("\\|");
         int length = (splitArray.length);
-        for (int i=0; i<length; i=i+3){
+        for (int i=0; i<length; i=i+4){
             String name=splitArray[i];
-            String capacity=splitArray[i+1];
-            String facilities=splitArray[i+2];
-            myDetailsList.add(new myDetails(name,capacity,facilities));
+            String capacity="Capacity - "+splitArray[i+1];
+            String facilities="Facilities Available -"+splitArray[i+2];
+            ar.add(splitArray[i+3]);
+            String coordinateS = splitArray[i+3];
+            myDetailsList.add(new myDetails(name,capacity,facilities,coordinateS));
         }
         DetailsAdapter adapter = new DetailsAdapter(context, myDetailsList);
         //setting adapter to recyclerview

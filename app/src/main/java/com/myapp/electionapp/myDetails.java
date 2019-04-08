@@ -1,16 +1,16 @@
 package com.myapp.electionapp;
 
 public class myDetails {
-//    private String imageText;
     private String name;
     private String capacity;
     private String facilities;
-
-    public myDetails(String name, String capacity, String facilities) {
+    private String coordinates;
+    public myDetails(String name, String capacity, String facilities,String coordinates) {
 //        this.imageText = imageText;
         this.name = name;
         this.capacity = capacity;
         this.facilities = facilities;
+        this.coordinates = coordinates;
     }
 
 //    public String getImageText() {
@@ -27,6 +27,9 @@ public class myDetails {
 
     public String getFacilities() {
         return facilities;
+    }
+    public String getCoordinates() {
+        return coordinates;
     }
 
 }

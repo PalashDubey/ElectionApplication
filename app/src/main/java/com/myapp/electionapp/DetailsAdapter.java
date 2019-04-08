@@ -1,6 +1,8 @@
 package com.myapp.electionapp;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -32,6 +34,18 @@ public class DetailsAdapter extends RecyclerView.Adapter<DetailsAdapter.DetailsV
         holder.name.setText(product.getName());
         holder.capacity.setText(product.getCapacity());
         holder.facility.setText(product.getFacilities());
+        final String boothCoordingate = product.getCoordinates();
+        holder.name.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri gmmIntentUri = Uri.parse("google.navigation:q="+boothCoordingate);
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(mCtx.getPackageManager()) != null) {
+                    mCtx.startActivity(mapIntent);
+                }
+            }
+        });
     }
 
     @Override
