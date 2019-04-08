@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/know_polling_booth"
-        android:text="Select Your Polling Booth"
+        android:text="@string/select_polling_booth"
         android:layout_alignParentTop="true"
         android:foregroundGravity="top"
         android:gravity="top"

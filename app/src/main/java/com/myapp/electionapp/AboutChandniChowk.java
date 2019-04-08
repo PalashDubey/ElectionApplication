@@ -10,6 +10,9 @@ import android.widget.ViewFlipper;
 public class AboutChandniChowk extends AppCompatActivity {
 
     ViewFlipper v_flipper;
+    public static TextView chandnichowkText;
+
+
 
     int images[] =
             {
@@ -24,6 +27,7 @@ public class AboutChandniChowk extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_chandni_chowk);
 
+        chandnichowkText=(TextView) findViewById(R.id.chandni_chowk);
         v_flipper = findViewById(R.id.flipper);
 
         for(int i=0;i<images.length;i++)

@@ -9,15 +9,15 @@
         android:icon="@drawable/share"/>
 
     <item
-        android:id="@+id/settings"
-        android:title="@string/settings"
+        android:id="@+id/Hindi"
+        android:title="Hindi"
         android:iconTint="@color/colorPrimary"
         app:showAsAction="never"
         />
 
     <item
-        android:id="@+id/about_us"
-        android:title="@string/about_us"
+        android:id="@+id/English"
+        android:title="English"
         app:showAsAction="never"/>
 
 </menu>

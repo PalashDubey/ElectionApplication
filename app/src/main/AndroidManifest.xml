@@ -44,7 +44,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionBar" />
         <activity
-            android:name=".BoothListActivity"
+            android:name=".BoothActivity2"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeNoActionBar" />
         <activity

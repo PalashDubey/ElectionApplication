@@ -47,7 +47,7 @@ public class PollingStation extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PollingStation.this,BoothListActivity.class));
+                startActivity(new Intent(PollingStation.this,BoothActivity2.class));
             }
         });
     }

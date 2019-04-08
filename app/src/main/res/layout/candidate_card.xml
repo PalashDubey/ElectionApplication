@@ -75,7 +75,7 @@
                     android:id="@+id/affidavit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Affidavit : "
+                    android:text="@string/affidavit"
                     android:textColor="#000"
                     android:textSize="18dp"/>
                 <TextView

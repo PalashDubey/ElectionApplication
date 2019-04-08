@@ -42,6 +42,7 @@
                 android:src="@drawable/polling_station"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/know_polling_booth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -81,6 +82,7 @@
                 android:src="@drawable/candidate"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/know_your_candidate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -118,6 +120,7 @@
                 android:src="@drawable/pwd"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/facility_pwd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -156,6 +159,7 @@
                 android:src="@drawable/third_gender"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/facility_third_gender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -196,6 +200,7 @@
                 android:src="@drawable/result"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/results"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -236,6 +241,7 @@
                 android:src="@drawable/chandani_chowk"
                 android:layout_marginBottom="5dp"/>
             <TextView
+                android:id="@+id/about_chandni_chowk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
