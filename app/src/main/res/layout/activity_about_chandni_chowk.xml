@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Constituency"
+                    android:text="@string/constituency"
                     android:textSize="18dp"
                     android:textStyle="bold"
                     android:textColor="#000"/>
@@ -116,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Number of Voters"
+                    android:text="@string/number_of_votes"
                     android:textSize="18dp"
                     android:textColor="#000"
                     android:textStyle="bold" />
@@ -141,7 +141,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Male"
+                        android:text="@string/male"
                         android:textColor="#000"
                         android:textSize="12dp"
                         />
@@ -151,7 +151,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Female"
+                        android:text="@string/female"
                         android:textColor="#000"
                         android:textSize="12dp"
                         />
@@ -161,7 +161,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="PwD"
+                        android:text="@string/pwd"
                         android:textColor="#000"
                         android:textSize="12dp"
                         />
@@ -171,7 +171,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Third Gender"
+                        android:text="@string/third_gender"
                         android:textColor="#000"
                         android:textSize="12dp"
                         />
@@ -196,7 +196,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Shakur Basti"
+                        android:text="@string/shakur_basti"
                         android:textColor="#000"
                         android:textSize="18dp"
                        />
@@ -261,7 +261,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Tri Nagar"
+                        android:text="@string/tri_nagar"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -327,7 +327,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Shalimar Bagh"
+                        android:text="@string/shalimar_bagh"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -391,7 +391,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Wazirpur"
+                        android:text="@string/wazirpur"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -455,7 +455,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Sadar Bazar"
+                        android:text="@string/sadar_bazar"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -519,7 +519,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Adarsh Nagar"
+                        android:text="@string/adarsh_nagar"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -582,7 +582,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Model Town"
+                        android:text="@string/model_town"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -647,7 +647,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Chandni Chowk"
+                        android:text="@string/chandni_chowk"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -712,7 +712,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Ballimaran"
+                        android:text="@string/ballimaran"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />
@@ -778,7 +778,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Matia Mehal"
+                        android:text="@string/matia_mahal"
                         android:textSize="18dp"
                         android:textColor="#000"
                         android:textStyle="normal" />

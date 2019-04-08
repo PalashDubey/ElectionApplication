@@ -4,7 +4,7 @@
     <string name="settings">Settings</string>
     <string name="about_us">About Us</string>
     <string name="location">Location</string>
-    <string name="help">Help</string>
+    <string name="help">Help &amp; Support</string>
     <string name="feedback">Feedback</string>
     <string name="know_your_candidate">Know Your Candidate</string>
     <string name="facility_for_pwd">Facility for PwD (Divyang)</string>
@@ -25,6 +25,22 @@
         Chandni Chowk has <b>10 Assembly Constituencies</b>:
     </string>
     <string name="affidavit">Affidavit : </string>
+
+    <string name="constituency">Constituency</string>
+    <string name="number_of_votes">Number of Voters</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="pwd">PwD</string>
+    <string name="third_gender">Third Gender</string>
+    <string name="shakur_basti">Shakur Basti</string>
+    <string name="tri_nagar">Tri Nagar</string>
+    <string name="shalimar_bagh">Shalimar Bagh</string>
+    <string name="wazirpur">Wazirpur</string>
+    <string name="sadar_bazar">Sadar Bazar</string>
+    <string name="adarsh_nagar">Adarsh Nagar</string>
+    <string name="model_town">Model Town</string>
+    <string name="ballimaran">Ballimaran</string>
+    <string name="matia_mahal">Matia Mehal</string>
     
 
 </resources>

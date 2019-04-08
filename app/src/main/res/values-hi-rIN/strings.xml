@@ -5,7 +5,7 @@
     <string name="settings">सेटिंग्स</string>
     <string name="about_us">हमारे बारे में</string>
     <string name="location">स्थान</string>
-    <string name="help">सहायता</string>
+    <string name="help">सहायता &amp; सहयोग</string>
     <string name="feedback">प्रतिक्रिया</string>
     <string name="know_your_polling_station">अपने मतदान केंद्र को जानें</string>
     <string name="know_your_candidate">अपने उम्मीदवार को जानें</string>
@@ -21,8 +21,24 @@
     <string name="chandni_chowk">चचांदनी चौक</string>
     <string name="parliament_constituency">संसद निर्वाचन क्षेत्र</string>
     <string name="chandni_chowk_content">
-        पुरानी दिल्ली के केंद्र में, <b>चांदनी चौक</b>, मसालों, सूखे मेवों, चांदी के आभूषणों और ज्वलंत साड़ियों से भरे बाजारों के साथ एक व्यस्त खरीदारी क्षेत्र है, जबकि संकरी गलियों में आवश्यक तेलों, स्टेशनरी और पारंपरिक भारतीय मिठाइयों की बिक्री करने वाली छोटी दुकानों की भीड़ है।
+        पुरानी दिल्ली के केंद्र में, <b>चांदनी चौक</b>, मसालों, सूखे मेवों, चांदी के आभूषणों और ज्वलंत साड़ियों से भरे बाजारों के साथ एक व्यस्त खरीदारी क्षेत्र है, जबकि संकरी गलियों में आवश्यक तेलों, स्टेशनरी और पारंपरिक भारतीय मिठाइयों की बिक्री करने वाली छोटी दुकानों की भीड़ है।\n\n
+        चांदनी चौक में <b>10 विधानसभा क्षेत्र</b> हैं:
     </string>
     <string name="select_polling_booth">अपने मतदान बूथ का चयन करें</string>
     <string name="affidavit">शपथ पत्र :</string>
+    <string name="constituency">चुनाव क्षेत्र</string>
+    <string name="number_of_votes">मतदाताओं की संख्या</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="pwd">पीडब्ल्यूडी</string>
+    <string name="third_gender">थर्ड जेंडर</string>
+    <string name="shakur_basti">शकूर बस्ती</string>
+    <string name="tri_nagar">त्रि नगर</string>
+    <string name="shalimar_bagh">शालीमार बाग</string>
+    <string name="wazirpur">वजीरपुर</string>
+    <string name="sadar_bazar">सदर बाजार</string>
+    <string name="adarsh_nagar">आदर्श नगर</string>
+    <string name="model_town">मॉडल टाउन</string>
+    <string name="ballimaran">बल्लीमारान</string>
+    <string name="matia_mahal">मतिया मेहल</string>
 </resources>
